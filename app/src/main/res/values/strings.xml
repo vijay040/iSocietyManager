@@ -1,0 +1,195 @@
+<resources>
+    <string name="app_name">iSociety Manager</string>
+    <string name="email">Enter Email</string>
+    <string name="password">Enter Password</string>
+    <string name="login">LOGIN</string>
+    <string name="login_text">Login To Amrapali Village</string>
+    <string name="submit">Submit</string>
+    <string name="my_profile">My Profile</string>
+    <string name="complaint">Complaint</string>
+    <string name="notice">Notice</string>
+    <string name="make_request">Make Request</string>
+    <string name="parking">Parking</string>
+    <string name="meeting">Meeting</string>
+    <string name="billing">Billing</string>
+    <string name="add_vendor">Add Vendor</string>
+    <string name="amc_services">AMC and Services</string>
+    <string name="facility_mgmt">Facility and Management</string>
+    <string name="send">Send</string>
+    <string name="add_dvr">Add Driver</string>
+    <string name="broadcast_msg">Broadcast Message</string>
+    <string name="bill_system">Bill System</string>
+    <string name="emergency_alarm">Emergency Alarm</string>
+    <string name="add_md">Add Maid</string>
+    <string name="message">Message</string>
+    <string name="add_new_employee">Add New Employee</string>
+    <string name="add_maid">Add Maid details</string>
+    <string name="add_driver">Add Driver Details</string>
+    <string name="feedback_title">Write Your Complaint Here</string>
+    <string name="subject">Subject:</string>
+    <string name="flate_no">Flate No.</string>
+    <string name="select_logintype">Select LoginType</string>
+    <string name="vehicle">Vehicle Directory</string>
+    <string name="residency_directory">Residency Directory</string>
+    <string name="comment">Comment:</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="logout">Log Out</string>
+    <string name="visitor">Visitor Management</string>
+    <string name="visitor_list">Visitor List</string>
+    <string name="owner_list">Owner List</string>
+    <string name="complaint_list">Complaint List</string>
+    <string name="comp_detail">Complaint Detail</string>
+    <string name="accept">ACCEPT</string>
+    <string name="reject">REJECT</string>
+    <string name="resolved">RESOLVED</string>
+    <string name="employee_list">Employee List</string>
+    <string name="add_visitor">Add Visitor</string>
+    <string name="add_employee">Add Employee</string>
+    <string name="profile_title">MY PROFILE</string>
+    <string name="attendance">Attendance</string>
+    <string name="ListValue">List Value</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_from_gallery">Choose from Gallery</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_photo">Add Photo!</string>
+    <string name="search_here">Search Here</string>
+    <string name="news">NEWS</string>
+    <string name="complaint_title">COMPLAINT</string>
+    <string name="maid">Maid List</string>
+    <string name="driver">Driver List</string>
+    <string name="visitor_name">Visitor Name</string>
+    <string name="title">Title</string>
+    <string name="titl">Title:</string>
+    <string name="dept">Department:</string>
+    <string name="des">Description</string>
+    <string name="desc">Description:</string>
+    <string name="contact_no">Contact No.</string>
+    <string name="to_meet">To Meet</string>
+    <string name="purpose">Purpose</string>
+    <string name="home_page">SOCIETY MANAGEMENT SYSTEM</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="adhar_no">Adhar Card No.</string>
+    <string name="occupation">Occupation</string>
+    <string name="possession_date">Possession Date</string>
+    <string name="vendor_name">Vendor Name</string>
+    <string name="date_birth">DOB</string>
+    <string name="date_formate">EEE, d MMM yyyy, HH:mm</string>
+    <string name="vendor_category">Vendor Category</string>
+    <string name="address">Address:</string>
+    <string name="add">Address</string>
+    <string name="notes">Notes</string>
+    <string name="parking_registration">Parking Area Registration</string>
+    <string name="owner_name">Owner Name</string>
+    <string name="bill_type">Bill Type</string>
+    <string name="vehicle_type">Vehicle Type</string>
+    <string name="alote_area">Allote Area</string>
+    <string name="charge">Charge</string>
+    <string name="rental">Rental</string>
+    <string name="add_owner">Add Owner</string>
+    <string name="add_member">Add Member</string>
+    <string name="add_memployee">Add Employee</string>
+    <string name="welcome_title">Welcome To Magic Society</string>
+    <string name="request_type">Type Your Request Here</string>
+    <string name="select">Select</string>
+    <string name="mobile_no">Mobile No:</string>
+    <string name="issue_date">Issue Date</string>
+    <string name="time_in">In Time:</string>
+    <string name="visitor_model">VISITORMODEL</string>
+    <string name="employee_model">EMPLOYEEMODEL</string>
+    <string name="comp_model">COMPLAINTMODEL</string>
+    <string name="driver_model">DRIVERMODEL</string>
+    <string name="maid_model">MAIDMODEL</string>
+    <string name="owner_model">OWNERMODEL</string>
+    <string name="visitor_detail">Visitor Detail</string>
+    <string name="emp_detail">Employee Detail</string>
+    <string name="maid_detail">Maid Detail</string>
+    <string name="driver_detail">Driver Detail</string>
+    <string name="owner_detail">Owner Detail</string>
+    <string name="joining_date">Joining Date:</string>
+    <string name="ending_date">Ending Date:</string>
+    <string name="time_out">Out Time:</string>
+    <string name="select_unit">Select Unit No.</string>
+    <string name="select_Designation">Select Designation</string>
+    <string name="enter_subject_name">Enter Subject Name</string>
+    <string name="enter_news">Enter News</string>
+    <string name="registration">REGISTRATION</string>
+    <string name="family_member">ADD FAMILY MEMBERS</string>
+    <string name="name">Name:</string>
+    <string name="employee_name">Employee Name</string>
+    <string name="driver_name">Driver Name</string>
+    <string name="maid_name">Maid Name</string>
+    <string name="edit">Edit</string>
+    <string name="edt_txt__name">First Name</string>
+    <string name="edt_txt_last_name">Last Name</string>
+    <string name="EmailAddress">Email Address</string>
+    <string name="mobile">Moblie No.</string>
+    <string name="desi">Designation</string>
+    <string name="contact">Contact No.</string>
+    <string name="email_add">Email:</string>
+    <string name="bill_date">Bill Date</string>
+    <string name="amount">Amount</string>
+    <string name="bank_name">Bank Name</string>
+    <string name="bill_des">Bill Description</string>
+    <string name="location">Location</string>
+    <string name="current_date">Current Date</string>
+    <string name="sign_in">SIGNIN</string>
+    <string name="date">Date:</string>
+    <string name="status">Status:</string>
+    <string name="confirm_pass">Confirm Password</string>
+    <string name="present_address">Present Address</string>
+    <string name="present_add">Present Address:</string>
+    <string name="permanent_add">Permanent Address</string>
+    <string name="permanent_address">Permanent Address:</string>
+    <string name="register">REGISTER</string>
+    <string name="national_id">ID Card Number</string>
+    <string name="national">ID Card Number:</string>
+    <string name="select_floor">Select Floor</string>
+    <string name="select_designation">Select Designation</string>
+    <string name="select_dept">Select Department</string>
+    <string name="not_register">Not Register Yet?</string>
+    <string name="enter_name">Enter Your Name</string>
+    <string name="enter_contact">Enter Contact No.</string>
+    <string name="enter_email">Enter Valid Email</string>
+    <string name="floor">Tower:</string>
+    <string name="ok">OK</string>
+    <string name="unit_no">Unit No:</string>
+    <string name="designation">Designation:</string>
+    <string name="enter_cnfrm_pass">Enter Confirm Password></string>
+    <string name="password_not_match">Password does not matches</string>
+    <string name="successfully_registered">Successfully Registered</string>
+    <string name="login_model">LOGIN_MODEL</string>
+    <string name="you_have_logged_out_successfully">You have logout successfully!</string>
+    <string name="signout">Singout</string>
+    <string name="select_branch">Select Branch</string>
+    <string-array name="types">
+        <item>Name</item>
+        <item>Contact No.</item>
+    </string-array>
+    <string-array name="array_logintypes">
+        <item>Login Types</item>
+        <item>Admin</item>
+        <item>Owner</item>
+        <item>Employee</item>
+        <item>Renter</item>
+        <item>Super Admin</item>
+
+    </string-array>
+
+    <string-array name="array_registertypes">
+        <item>Register Types</item>
+        <item>Owner</item>
+        <item>Renter</item>
+    </string-array>
+
+    <string-array name="array_id_types">
+        <item>Register ID Types</item>
+        <item>Aadhaar Card</item>
+        <item>Pan Card</item>
+        <item>Voter ID</item>
+        <item>Passport</item>
+        <item>Driving License</item>
+    </string-array>
+</resources>

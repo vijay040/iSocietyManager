@@ -1,0 +1,130 @@
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+            android:background="@drawable/bg"
+            android:layout_height="match_parent">
+                <include layout="@layout/toolbar"
+                    android:id="@+id/toolbar"/>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+        android:id="@+id/txt_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:text="@string/feedback_title"
+        android:textStyle="bold"
+        android:drawablePadding="@dimen/_8sdp"
+        android:drawableRight="@drawable/ic_complain"
+        android:textColor="@color/title_color"
+        android:textSize="@dimen/_15sdp" />
+
+                <EditText
+                    android:id="@+id/edt_complaint_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_38sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:background="@color/white_color"
+                    android:hint="@string/title"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:paddingLeft="@dimen/_15sdp"
+                    android:singleLine="true"
+                    android:textColor="#6d6e71"
+                    android:visibility="gone"
+                    android:textSize="@dimen/_11sdp" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:visibility="gone"
+                    android:background="@color/view_devider" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:text="Select Related Department"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:textColor="@color/title_color"
+                        android:textSize="@dimen/_10sdp"
+                        android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/edt_department"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_38sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@color/white_color"
+                    android:drawableRight="@drawable/dropdownyello"
+                    android:editable="false"
+                    android:hint="@string/select_dept"
+                    android:paddingLeft="@dimen/_15sdp"
+                    android:singleLine="true"
+                    android:textColor="#6d6e71"
+                    android:textSize="@dimen/_11sdp" />
+                    <ProgressBar
+                        android:id="@+id/progress"
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                       android:layout_gravity="center"
+                        android:visibility="gone"
+                        android:indeterminateDrawable="@drawable/progressbar"
+                        />
+
+                <EditText
+                    android:id="@+id/edt_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_150sdp"
+                    android:layout_below="@+id/edt_department"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/commentbck"
+                    android:gravity="top"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:hint="@string/des"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textColor="#000"
+                    android:textSize="@dimen/_11sdp"
+                    android:textColorHint="#000" />
+
+                <EditText
+                    android:id="@+id/edt_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_38sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:background="@color/white_color"
+                    android:hint="@string/current_date"
+                    android:clickable="false"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:focusable="false"
+                    android:paddingLeft="@dimen/_15sdp"
+                    android:singleLine="true"
+                    android:textColor="#6d6e71"
+                    android:textSize="@dimen/_11sdp" />
+
+                <Button
+                    android:id="@+id/btn_submit"
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_20sdp"
+                android:layout_gravity="center"
+                    android:background="@drawable/btn_back"
+                    android:text="@string/submit"
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    android:textColor="@color/white_color" />
+                </LinearLayout>
+                </ScrollView>
+
+        </RelativeLayout>

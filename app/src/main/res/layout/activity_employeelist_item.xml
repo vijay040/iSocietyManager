@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:src="@drawable/ic_profile" />
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_toRightOf="@id/img"
+            android:ems="12"
+            android:text="@string/name"
+            android:textColor="@color/them_color"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtMobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtName"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_toRightOf="@id/img"
+            android:singleLine="true"
+            android:text="@string/mobile"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_8sdp" />
+
+
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtMobile"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_toRightOf="@id/img"
+            android:singleLine="true"
+            android:text="@string/email_add"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_9sdp" />
+        <TextView
+            android:id="@+id/txtDesignation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtEmail"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_toRightOf="@id/img"
+            android:singleLine="true"
+            android:text="@string/designation"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_9sdp" />
+
+
+        <ImageView
+            android:id="@+id/imz_down"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="12dp"
+            android:padding="@dimen/_15sdp"
+            android:src="@drawable/ic_down" />
+        <RelativeLayout
+            android:id="@+id/lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtDesignation"
+            android:layout_toRightOf="@+id/img">
+
+            <TextView
+                android:id="@+id/txt_joining_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:singleLine="true"
+                android:text="@string/joining_date"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/_9sdp" />
+            <TextView
+                android:id="@+id/txt_present_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_joining_date"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:singleLine="true"
+                android:text="@string/present_add"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/_9sdp" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>

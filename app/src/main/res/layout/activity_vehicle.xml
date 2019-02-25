@@ -1,0 +1,121 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white_color"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/ic_vechile"
+        android:layout_height="@dimen/_80sdp" />
+    <EditText
+        android:id="@+id/edt_vehicle_type"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:background="@color/white_color"
+        android:hint="@string/vehicle_type"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:paddingLeft="@dimen/_15sdp"
+        android:singleLine="true"
+        android:textColor="#6d6e71"
+        android:textSize="@dimen/_11sdp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:background="@color/view_devider" />
+    <EditText
+        android:id="@+id/edt_allot_area"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:background="@color/white_color"
+        android:drawableRight="@drawable/dropdown"
+        android:editable="false"
+        android:hint="@string/alote_area"
+        android:paddingLeft="@dimen/_15sdp"
+        android:singleLine="true"
+        android:textColor="#6d6e71"
+        android:textSize="@dimen/_11sdp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:background="@color/view_devider" />
+    <EditText
+        android:id="@+id/edt_owner_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:background="@color/white_color"
+        android:drawableRight="@drawable/dropdown"
+        android:editable="false"
+        android:hint="@string/owner_name"
+        android:paddingLeft="@dimen/_15sdp"
+        android:singleLine="true"
+        android:textColor="#6d6e71"
+        android:textSize="@dimen/_11sdp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:background="@color/view_devider" />
+    <EditText
+        android:id="@+id/edt_charge"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:background="@color/white_color"
+        android:hint="@string/charge"
+        android:inputType="numberDecimal"
+        android:paddingLeft="@dimen/_15sdp"
+        android:singleLine="true"
+        android:textColor="#6d6e71"
+        android:textSize="@dimen/_11sdp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:background="@color/view_devider" />
+    <CheckBox
+        android:id="@+id/chk_rental"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rental"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold"
+        android:textColor="#008DB3"
+        android:layout_marginLeft="@dimen/_10sdp"/>
+        <Button
+        android:id="@+id/btn_save"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="SAVE"
+        android:textColor="@color/white_color"
+        android:background="@color/title_color"
+        android:layout_height="wrap_content" />
+       </LinearLayout>
+
+
+
+
+
+
+
+
+

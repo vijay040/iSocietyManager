@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+    <include layout="@layout/toolbar"
+
+        android:id="@+id/toolbar"/>
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:src="@drawable/ic_send" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:orientation="vertical">
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/edtPurpose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/dropdown"
+                android:editable="false"
+                android:hint="@string/select"
+                app:met_baseColor="@color/text_color"
+                app:met_bottomTextSize="@dimen/_1sdp"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelTextSize="@dimen/_10sdp"
+                app:met_maxCharacters="20"
+                app:met_primaryColor="@color/text_hint_color" />
+            <EditText
+                android:id="@+id/edt_request"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_200sdp"
+                android:layout_below="@+id/edtCustomer"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/requestbck"
+                android:gravity="top"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:hint="@string/request_type"
+                android:paddingLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:textColor="#000"
+                android:textColorHint="#000" />
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_back"
+                android:text="@string/submit"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

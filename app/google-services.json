@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "981000100204",
+    "firebase_url": "https://magicsociety-63a81.firebaseio.com",
+    "project_id": "magicsociety-63a81",
+    "storage_bucket": "magicsociety-63a81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981000100204:android:92db91d6b4096e06",
+        "android_client_info": {
+          "package_name": "com.mmcs.societymaintainance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981000100204-t9tnr09pr7i2jl3coerbobs971v3pbhc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mmcs.societymaintainance",
+            "certificate_hash": "025cadc4544daf7012e99cbafea1f388e6922a06"
+          }
+        },
+        {
+          "client_id": "981000100204-fripc59hr9vaqij03i5h8jm3ger3q7s2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyFNaKap08lpJoEk3qAlNZwLwluBF1DTw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981000100204-fripc59hr9vaqij03i5h8jm3ger3q7s2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

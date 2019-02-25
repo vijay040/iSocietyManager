@@ -1,0 +1,138 @@
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white_color"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+    <TextView
+        android:id="@+id/txt_bill_type"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/bill_type" />
+
+            <EditText
+                android:id="@+id/edt_bill_type"
+                android:layout_below="@+id/txt_bill_type"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_38sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:background="@color/white_color"
+                android:hint="@string/bill_type"
+                android:paddingLeft="@dimen/_15sdp"
+                android:singleLine="true"
+                android:editable="false"
+                android:textColor="#6d6e71"
+                android:textSize="@dimen/_11sdp" />
+    <TextView
+        android:id="@+id/txt_bill_date"
+        android:text="@string/bill_date"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_below="@+id/edt_bill_type"
+        android:layout_height="wrap_content" />
+              <EditText
+                android:id="@+id/edt_bill_date"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_38sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_below="@+id/txt_bill_date"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:background="@color/white_color"
+                android:editable="false"
+                android:hint="@string/bill_date"
+                android:paddingLeft="@dimen/_15sdp"
+                android:singleLine="true"
+                android:textColor="#6d6e71"
+                android:textSize="@dimen/_11sdp" />
+
+        <TextView
+        android:id="@+id/txt_bill_amount"
+        android:text="@string/amount"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_below="@+id/edt_bill_date"
+        android:layout_height="wrap_content" />
+       <EditText
+        android:id="@+id/edt_bill_amount"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:background="@color/white_color"
+        android:editable="false"
+        android:layout_below="@+id/txt_bill_amount"
+        android:hint="@string/amount"
+        android:paddingLeft="@dimen/_15sdp"
+        android:singleLine="true"
+        android:textColor="#6d6e71"
+        android:textSize="@dimen/_11sdp" />
+        <TextView
+        android:id="@+id/txt_bank_name"
+        android:text="@string/bank_name"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_below="@+id/edt_bill_amount"
+        android:layout_height="wrap_content" />
+       <EditText
+        android:id="@+id/edt_bank_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:background="@color/white_color"
+        android:layout_below="@+id/txt_bank_name"
+        android:editable="false"
+        android:hint="@string/bank_name"
+        android:paddingLeft="@dimen/_15sdp"
+        android:singleLine="true"
+        android:textColor="#6d6e71"
+        android:textSize="@dimen/_11sdp" />
+    <TextView
+        android:id="@+id/txt_bill_des"
+        android:text="@string/bill_des"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_below="@+id/edt_bank_name"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edt_bill_description"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:gravity="top"
+        android:editable="false"
+        android:layout_below="@+id/txt_bill_des"
+        android:background="@color/white_color"
+        android:hint="@string/bill_des"
+        android:paddingLeft="@dimen/_15sdp"
+        android:singleLine="true"
+        android:textColor="#6d6e71"
+        android:textSize="@dimen/_11sdp" />
+
+       <Button
+        android:id="@+id/btnOk"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/btn"
+        android:text="@string/ok"
+        android:layout_below="@+id/edt_bill_description"
+        android:textColor="@color/white_color"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold" />
+       </RelativeLayout>
+

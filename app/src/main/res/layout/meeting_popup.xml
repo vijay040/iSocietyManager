@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+            android:id="@+id/lay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/_10sdp"
+                android:text="Select Purpose"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/_14sdp"
+                android:textStyle="bold" />
+            <SearchView
+                android:id="@+id/edt"
+                android:layout_width="match_parent"
+                android:hint="Search..."
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_height="wrap_content"/>
+            <ListView
+                android:id="@+id/listFloor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </ListView>
+        </LinearLayout>
+      </LinearLayout>

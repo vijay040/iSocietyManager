@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+    <include layout="@layout/toolbar"/>
+    <SearchView
+        android:layout_marginTop="@dimen/_60sdp"
+        android:id="@+id/edt"
+        android:layout_width="match_parent"
+        android:hint="@string/search_here"
+        android:layout_height="wrap_content" />
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:indeterminateDrawable="@drawable/progressbar"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        />
+
+    <ListView
+        android:layout_below="@+id/edt"
+        android:id="@+id/listComplaint"
+        android:layout_width="match_parent"
+        android:smoothScrollbar="true"
+        android:stackFromBottom="true"
+        android:transcriptMode="disabled"
+        android:background="@drawable/rounded_lay"
+        android:layout_margin="@dimen/_10sdp"
+        android:padding="@dimen/_5sdp"
+        android:visibility="gone"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:layout_height="wrap_content">
+
+    </ListView>
+    <ImageView
+        android:id="@+id/imz_nodata"
+        android:layout_width="@dimen/_200sdp"
+        android:visibility="gone"
+        android:background="@drawable/notdatafound"
+        android:layout_centerInParent="true"
+        android:layout_height="@dimen/_200sdp" />
+    <RelativeLayout
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:id="@+id/txtAdd"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ic_addicon"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp" />
+</RelativeLayout>
